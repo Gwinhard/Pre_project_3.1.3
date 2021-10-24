@@ -1,9 +1,8 @@
-package com.example.pre_project_311.service;
+package com.example.pre_project_312.service;
 
-import com.example.pre_project_311.model.User;
+import com.example.pre_project_312.model.User;
 
 import java.util.List;
-import java.util.Optional;
 
 public interface UserService {
     void addUser(User user);
@@ -13,6 +12,8 @@ public interface UserService {
     void removeUser(long id);
 
     User getUserById(long id);
+
+    User getUserByEmail(String email);
 
     List<User> getAllUsers();
 }

@@ -1,4 +1,4 @@
-package com.example.pre_project_311.configuration;
+package com.example.pre_project_312.configuration;
 
 import org.springframework.security.core.Authentication;
 import org.springframework.security.core.authority.AuthorityUtils;

@@ -1,7 +1,7 @@
-package com.example.pre_project_311.repository;
+package com.example.pre_project_312.repository;
 
 
-import com.example.pre_project_311.model.Role;
+import com.example.pre_project_312.model.Role;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 

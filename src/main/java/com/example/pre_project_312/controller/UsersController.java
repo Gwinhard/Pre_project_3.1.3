@@ -1,7 +1,7 @@
-package com.example.pre_project_311.controller;
+package com.example.pre_project_312.controller;
 
-import com.example.pre_project_311.model.User;
-import com.example.pre_project_311.repository.UserRepository;
+import com.example.pre_project_312.model.User;
+import com.example.pre_project_312.repository.UserRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
@@ -24,10 +24,10 @@ public class UsersController {
 
     @GetMapping
     public String login(Principal principal, Model model) {
-        User user = userRepository.findUserByUsername(principal.getName());
+        User user = userRepository.findUserByEmail(principal.getName());
         model.addAttribute("user", user);
 
-        return "/show";
+        return "show_user";
     }
 
 }
