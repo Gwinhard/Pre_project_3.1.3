@@ -1,7 +1,7 @@
-package com.example.pre_project_312.service;
+package com.example.pre_project_313.service;
 
-import com.example.pre_project_312.model.Role;
-import com.example.pre_project_312.repository.RoleRepository;
+import com.example.pre_project_313.model.Role;
+import com.example.pre_project_313.repository.RoleRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
@@ -9,6 +9,7 @@ import java.util.List;
 
 @Service
 public class RoleServiceImpl implements RoleService {
+
     RoleRepository roleRepository;
 
     @Autowired
